@@ -1,3 +1,3 @@
 function s = getFancy
-    s = 'kinda fancy';
+    s = fileread('fancydata.txt');
 end
